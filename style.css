@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container div {
+    margin: 2%;
+}
+
+.limbs, .genders, .radios, #gender-block, #limbs-block {
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gender-block .radios {
+    width: 82%;
+}
+
+.radios {
+    width: 100%;
+    padding: 0 90px;
+    border: 5mm ridge rgba(166, 50, 220, 0.6);;
+    border-radius: 10px;
+}
+
+#send-btn {
+    width: 95%;
+    background-color: #92ec1b;
+    border-color: #097edf;
+}
+
+#policy a {
+    color: #34b5f1;
+}
+
+.form-container .form-control:focus {
+    outline: 1px solid rgb(181, 90, 241);
+    border: 1px solid #e025c1;
+    box-shadow: 0 0 10px #f3ca439a;
+}
+
